@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Ahmed's Cash Register</title>
+  </head>
+  <body>
+    <main class="container">
+      <h1 class="heading">Cash Register</h1>
+      <p><strong>Price of object:</strong> $19.50</p>
+      <input id="cash" type="number" placeholder="Enter cash amount..." />
+      <button id="purchase-btn">Purchase</button>
+      <div id="change-due" class="placeholder-text">
+        Change due will appear here...
+      </div>
+      <p class="note">
+        * Note: For this demo, only $20 is accepted as input. This limitation
+        exists because the cash register is manually locked in the script for
+        simplicity, and other use cases cannot be expressed in this format.
+      </p>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
