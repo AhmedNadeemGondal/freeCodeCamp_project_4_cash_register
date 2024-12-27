@@ -44,7 +44,3 @@ This project implements a cash register application that calculates the change d
 1. Enter a cash amount greater than or equal to **$19.50** in the input field.
 2. Click the **Purchase** button to process the transaction.
 3. View the calculated change and transaction status in the results section.
-
-## License
-
-This project is open source and available under the [MIT License](https://opensource.org/licenses/MIT).
