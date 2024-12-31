@@ -2,6 +2,10 @@
 
 This project implements a cash register application that calculates the change due to a customer based on the cash given and the item's price. The app dynamically updates the available cash in the drawer and determines the transaction status.
 
+## Live Demo
+
+[View the project live here.](https://ahmednadeemgondal.github.io/freeCodeCamp_project_4_cash_register/)
+
 ## Features
 
 - Accepts cash input and calculates change.
@@ -10,10 +14,6 @@ This project implements a cash register application that calculates the change d
   - `OPEN` - Change successfully provided with cash remaining in the drawer.
   - `CLOSED` - Exact change provided, leaving the drawer empty.
   - `INSUFFICIENT_FUNDS` - Unable to provide change due to lack of denominations.
-
-## Live Demo
-
-[View the project live here.](https://ahmednadeemgondal.github.io/freeCodeCamp_project_4_cash_register/)
 
 ## How It Works
 
